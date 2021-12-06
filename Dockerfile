@@ -12,5 +12,5 @@ RUN pip install pillow
 RUN pip install pytesseract
 RUN pip install opencv-contrib-python
 RUN pip install -r requirements.txt
-ENTRYPOINT ["python"]
+ENTRYPOINT ["python3"]
 CMD ["app.py"]
