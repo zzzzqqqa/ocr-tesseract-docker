@@ -11,7 +11,7 @@ __author__ = 'Rick Torzynski <ricktorzynski@gmail.com>'
 __source__ = ''
 
 app = Flask(__name__)
-UPLOAD_FOLDER = './static/uploads'
+UPLOAD_FOLDER = '/tmp'
 app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER 
 app.config['MAX_CONTENT_LENGTH'] = 10 * 1024 * 1024
 
